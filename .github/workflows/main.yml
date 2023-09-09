@@ -41,8 +41,7 @@ jobs:
         uses: game-ci/unity-test-runner@v3
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-        with:
-          githubToken: ${{ secrets.GITHUB_TOKEN }}
+
 
       # Build
       - name: Build project
