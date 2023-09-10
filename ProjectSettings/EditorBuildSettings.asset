@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Combat.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/_Character_Customization.unity
+    guid: 0bd4b422ddea65d9797758e77fb3f1ed
+  - enabled: 1
+    path: Assets/Scenes/_Map.unity
+    guid: ba7a35bd1b6c0bb48a2b87b859305cf9
+  - enabled: 1
+    path: Assets/Scenes/_Menu.unity
+    guid: 85118b43b0bd6a09e92fd5eee63d4ed9
+  - enabled: 1
+    path: Assets/Scenes/_Shop.unity
+    guid: df34717e4143e3de58d301181cbfdaad
   m_configObjects: {}
