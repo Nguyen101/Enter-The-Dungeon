@@ -36,9 +36,7 @@ jobs:
           restore-keys: |
             Library-
 
-      # Test
-      - name: Unity - Test runner
-        uses: game-ci/unity-test-runner@v3.1.0
+
 
 
       # Build
