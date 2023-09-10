@@ -37,10 +37,9 @@ jobs:
             Library-
 
       # Test
-      - name: Run tests
-        uses: game-ci/unity-test-runner@v3
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+    - name: Unity - Test runner
+            uses: game-ci/unity-test-runner@v3.1.0
+
 
 
       # Build
