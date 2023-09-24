@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class ItemsHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
+public class BuffsHover : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public float hoverHeight; // Set the desired hover height
     public float hoverSpeed; // Set the speed at which the card hovers
