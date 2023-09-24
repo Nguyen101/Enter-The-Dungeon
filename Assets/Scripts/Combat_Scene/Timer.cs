@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI; // UI elements
+using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public float timeLimit;// Set the time limit in seconds
+    public float timeLimit; // Set the time limit in seconds
     private float currentTime;
 
     public Text timerText; // Reference to a Text UI element to display the timer
@@ -22,15 +22,16 @@ public class Timer : MonoBehaviour
         }
         else
         {
+            currentTime = 0; // Ensure currentTime doesn't go negative
+            UpdateTimerDisplay();
+
             // Timer has reached zero, handle the end of the countdown here
         }
     }
 
     void UpdateTimerDisplay()
     {
-        int minutes = Mathf.FloorToInt(currentTime / 60);
-        int seconds = Mathf.FloorToInt(currentTime % 60);
-        string timeString = string.Format("{0:00}:{1:00}", minutes, seconds);
-        timerText.text = timeString; // Update the UI element with the current time
+        int seconds = Mathf.CeilToInt(currentTime); // Round up to nearest second
+        timerText.text = "Timer: " + seconds.ToString() + "s"; // Display in seconds
     }
 }

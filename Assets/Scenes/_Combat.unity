@@ -605,8 +605,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 805, y: -442}
-  m_SizeDelta: {x: 200, y: 300}
+  m_AnchoredPosition: {x: 775.1634, y: -446.71902}
+  m_SizeDelta: {x: 462.0817, y: 291.5576}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &917104120
 MonoBehaviour:
@@ -1038,7 +1038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c91865fc10668e99908aeb5ac340981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeLimit: 60
+  timeLimit: 2
   timerText: {fileID: 1301895410}
 --- !u!1 &1504579936
 GameObject:
@@ -1368,6 +1368,7 @@ GameObject:
   - component: {fileID: 1990755749}
   - component: {fileID: 1990755751}
   - component: {fileID: 1990755750}
+  - component: {fileID: 1990755752}
   m_Layer: 5
   m_Name: Buff and Passives
   m_TagString: Untagged
@@ -1432,6 +1433,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990755748}
   m_CullTransparentMesh: 1
+--- !u!114 &1990755752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990755748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a12f6caf4d6f3e50a17c27a3d149b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverHeight: 100
+  hoverSpeed: 2
 --- !u!1001 &7092997854748028280
 PrefabInstance:
   m_ObjectHideFlags: 0
