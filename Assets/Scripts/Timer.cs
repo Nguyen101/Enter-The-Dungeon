@@ -1,9 +1,9 @@
 using UnityEngine;
-using UnityEngine.UI; // You'll need this for UI elements
+using UnityEngine.UI; // UI elements
 
 public class Timer : MonoBehaviour
 {
-    public float timeLimit = 60.0f; // Set the time limit in seconds
+    public float timeLimit;// Set the time limit in seconds
     private float currentTime;
 
     public Text timerText; // Reference to a Text UI element to display the timer
