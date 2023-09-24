@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e95d4180a990e69a929a5c05272d22, type: 3}
   m_Name: Basic_Defend
   m_EditorClassIdentifier: 
-  name: 
-  description: 
+  name: Guard
+  description: Increase your physical defense by 3
   artwork: {fileID: 0}
   attack: 0
-  defense: 0
-  duration: 0
+  defense: 3
+  duration: 1
   manaCost: 0

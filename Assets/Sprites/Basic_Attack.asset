@@ -18,4 +18,4 @@ MonoBehaviour:
   attack: 3
   defense: 1
   duration: 2
-  manaCost: 4
+  manaCost: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e95d4180a990e69a929a5c05272d22, type: 3}
   m_Name: Draw_Cards
   m_EditorClassIdentifier: 
-  name: 
+  name: Equal Exchange
   description: 
   artwork: {fileID: 0}
   attack: 0

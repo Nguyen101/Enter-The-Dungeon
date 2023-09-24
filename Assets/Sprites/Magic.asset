@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7e95d4180a990e69a929a5c05272d22, type: 3}
   m_Name: Magic
   m_EditorClassIdentifier: 
-  name: 
-  description: 
+  name: Arcane Shot
+  description: Deal 4 magic damage
   artwork: {fileID: 0}
-  attack: 0
+  attack: 4
   defense: 0
-  duration: 0
-  manaCost: 0
+  duration: 1
+  manaCost: 2
