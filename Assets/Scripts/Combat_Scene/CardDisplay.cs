@@ -9,19 +9,20 @@ public class CardDisplay : MonoBehaviour{
     public Text descriptionText;
     public Image artworkImage;
     
-    public Text attackText;
-    public Text defenseText;
+    //public Text attackText;
+    //public Text defenseText;
     public int durationText;
-    public Text manaCostText;
+    //public Text manaCostText;
     void Start () {
+        
         nameText.text = card.name;
         descriptionText.text = card.description;
 
         artworkImage.sprite = card.artwork;
 
-        attackText.text = card.attack.ToString();
-        defenseText.text = card.defense.ToString();
+        //attackText.text = card.attack.ToString();
+        //defenseText.text = card.defense.ToString();
         durationText = card.duration;
-        manaCostText.text = card.manaCost.ToString();
+        //manaCostText.text = card.manaCost.ToString();
     }
 }
